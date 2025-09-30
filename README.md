@@ -1,6 +1,12 @@
 
 # 🌦️ Flutter Weather App
 
+[![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)](https://flutter.dev/) 
+[![Dart](https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white)](https://dart.dev/) 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](LICENSE) 
+[![GitHub stars](https://img.shields.io/github/stars/vibhav22022000/Flutter-Weather-App?style=for-the-badge)](https://github.com/vibhav22022000/Flutter-Weather-App/stargazers) 
+[![GitHub issues](https://img.shields.io/github/issues/vibhav22022000/Flutter-Weather-App?style=for-the-badge)](https://github.com/vibhav22022000/Flutter-Weather-App/issues)
+
 A **modern weather application** built with Flutter that provides real-time weather updates, forecasts, and air quality information — all in a clean and user-friendly interface.
 
 ---
@@ -50,7 +56,6 @@ A **modern weather application** built with Flutter that provides real-time weat
 |---------|---------|
 | ![Trend1](screenshots/weathertrends1.png) | ![Trend2](screenshots/weathertrends2.png) |
 
-
 ---
 
 ## 🛠️ Technologies Used
@@ -61,25 +66,42 @@ A **modern weather application** built with Flutter that provides real-time weat
 
 ---
 
-## 🚀 Installation & Setup
+## 🚀 Getting Started
 
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/vibhav22022000/Flutter-Weather-App.git
-   cd Flutter-Weather-App
+Follow these steps to **run the app locally**:
+
+### 1️⃣ Clone the Repository
+```bash
+git clone https://github.com/vibhav22022000/Flutter-Weather-App.git
+cd Flutter-Weather-App
 ````
 
-2. **Install dependencies**
+### 2️⃣ Install Dependencies
 
-   ```bash
-   flutter pub get
-   ```
+```bash
+flutter pub get
+```
 
-3. **Run the app**
+### 3️⃣ API Setup
 
-   ```bash
-   flutter run
-   ```
+This app uses **Open-Meteo API** (no key required, free and open). By default, the app fetches weather for the current location.
+
+* To change default city, edit `lib/services/api_service.dart` and set your desired coordinates.
+* Optional: For advanced users, you can integrate other APIs like OpenWeatherMap by updating the service class.
+
+### 4️⃣ Run the App
+
+```bash
+flutter run
+```
+
+> ⚡ Tip: If you are using a physical device, enable USB debugging (Android) or add your device for iOS.
+
+### 5️⃣ Customization
+
+* **Theme**: Switch between Light/Dark mode in settings
+* **Units**: Change temperature between °C and °F
+* **Notifications**: Enable to get weather alerts
 
 ---
 
@@ -103,7 +125,7 @@ lib/
 
 ## 🧑‍💻 Contributing
 
-Contributions are welcome! If you’d like to improve this project:
+Contributions are welcome! To contribute:
 
 1. Fork the repository
 2. Create a new branch (`feature/your-feature`)
@@ -125,9 +147,4 @@ Feel free to use, modify, and distribute it as per the license.
 * [Open-Meteo API](https://open-meteo.com/) for weather data
 * Flutter community for plugins & support
 
-```
 
----
-
-Do you want me to also add **shields.io badges** (like Flutter, License, Stars, Issues) at the top for a more professional GitHub look?
-```
