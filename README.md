@@ -1,8 +1,4 @@
-Here’s a polished **README.md** you can use for your Flutter Weather App project. It’s GitHub-ready with proper structure, badges, and clear instructions 👇
 
----
-
-````markdown
 # 🌦️ Flutter Weather App
 
 A **modern weather application** built with Flutter that provides real-time weather updates, forecasts, and air quality information — all in a clean and user-friendly interface.
@@ -24,11 +20,36 @@ A **modern weather application** built with Flutter that provides real-time weat
 
 ## 📸 Screenshots
 
-| Home Screen | Forecast | City Comparison |
-|-------------|----------|-----------------|
-| ![Home](screenshots/home.png) | ![Forecast](screenshots/forecast.png) | ![Comparison](screenshots/comparison.png) |
+### Home Screens
+| Home 1 | Home 2 |
+|--------|--------|
+| ![Home 1](screenshots/homescreen1.png) | ![Home 2](screenshots/homescreen2.png) |
 
-> *(Replace with your actual screenshots in the `screenshots/` folder.)*
+### Forecast
+| 7-Day Forecast | 24-Hour Forecast 1 | 24-Hour Forecast 2 |
+|----------------|------------------|------------------|
+| ![7-Day](screenshots/7daysforecast.png) | ![24h1](screenshots/24hrsforecast.png) | ![24h2](screenshots/24hrsforecast2.png) |
+
+### Air Quality
+| Air Quality 1 | Air Quality 2 |
+|---------------|---------------|
+| ![AQ1](screenshots/airquality1.png) | ![AQ2](screenshots/airquality2.png) |
+
+### City Comparison
+| City Comparison |
+|----------------|
+| ![City](screenshots/citycomparison.png) |
+
+### Detailed Info
+| Detailed Info 1 | Detailed Info 2 |
+|-----------------|----------------|
+| ![Detail1](screenshots/detailedinfo1.png) | ![Detail2](screenshots/detailedinfo2.png) |
+
+### Weather Trends
+| Trend 1 | Trend 2 |
+|---------|---------|
+| ![Trend1](screenshots/weathertrends1.png) | ![Trend2](screenshots/weathertrends2.png) |
+
 
 ---
 
